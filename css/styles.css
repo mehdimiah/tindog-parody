@@ -10,6 +10,13 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
+h2 {
+  font-family: "montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
@@ -57,6 +64,11 @@ left: 20%;
 }
 
 /* feature content */
+
+#features {
+  padding: 7% 15%;
+}
+
 .fa-check-circle {
     color: #ef8172;
     font-size: 6rem;
@@ -100,4 +112,36 @@ left: 20%;
 .feature-col {
     text-align: center;
     padding:100px;
+}
+
+/* testimonial section */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172 ;
+  color: #ffff;
+}
+
+.testimonialimage {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom:3% ;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px ;
 }
